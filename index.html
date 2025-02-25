@@ -6,14 +6,36 @@
     <title>Hospedaje Golden Gate</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<!-- Ventana Flotante para Opiniones -->
+<!-- Ventana Flotante para Opiniones -->
+<div id="modal-opinion" class="modal">
+    <div class="modal-content">
+        <!-- Eliminamos la "X" del medio -->
+        <h2>Deja tu opinión</h2>
+        <p id="modal-title"></p>
+        
+        <!-- Sistema de Estrellas -->
+        <div class="star-rating">
+            <span class="star" onclick="calificar(1)">★</span>
+            <span class="star" onclick="calificar(2)">★</span>
+            <span class="star" onclick="calificar(3)">★</span>
+            <span class="star" onclick="calificar(4)">★</span>
+            <span class="star" onclick="calificar(5)">★</span>
+        </div>
+        
+        <button class="btn-enviar" onclick="cerrarModal()">Enviar</button>
+    </div>
+</div>
+
+
 <body>
 
     <header>
         <h1>
-            <img src="logo.png" alt="Logo Hospedaje Golden Gate" class="logo">
-            HOSPEDAJE GOLDEN GATE de Genobeba Tacza
-        </h1>
-        <a href="https://wa.me/51987654321" target="_blank" class="btn-whatsapp">Contáctanos</a>
+            <img src="d:\Tareas u otros Juan\logo2.jpeg" alt="Logo Hospedaje Golden Gate" class="logo">
+        </h1>  
+        HOSPEDAJE GOLDEN GATE de Genoveva G. Tacza Rojas.     
+        <a href="https://wa.me/qr/YASCHRCOOIA5I1" target="_blank" class="btn-whatsapp">Contáctanos</a>
     </header>
     
     
@@ -25,7 +47,7 @@
             <img src="d:\Tareas u otros Juan\imgv3.jfif" alt="Cuartos con baño privado">
             <div class="hotel-info">
                 <h2>1. Cuartos con baño privado</h2>
-                <p class="rating">⭐⭐⭐⭐⭐ 3,314 opiniones</p>
+                <p class="rating">POR FAVOR CALIFÍQUENOS</p>
                 <button class="btn-precio" onclick="Opinar('Cuartos con baño privado')">Opinar</button>
                 <p>Los cuartos con baño propio cuenta con televisor, cama de dos plasas, agua caliente y se le entrega una toalla y jabón.
                 Si desea más información no dude en consultarnos.
@@ -38,7 +60,7 @@
             <img src="d:\Tareas u otros Juan\img2v.jfif" alt="Cuartos con baño compartido">
             <div class="hotel-info">
                 <h2>2. Cuartos con baño compartido</h2>
-                <p class="rating">⭐⭐⭐⭐ 1,561 opiniones</p>
+                <p class="rating">POR FAVOR CALIFÍQUENOS </p>
                 <button class="btn-precio" onclick="Opinar('Cuartos con baño compartido')">Opinar</button>
                 <p>Los cuartos con baño compartido cuentan con televisor, baño en frente de la habitación, el servicio es opcional
                     al entregar toalla y jabón. Si desea más información no dude en consultarnos. </p>
@@ -50,7 +72,7 @@
             <img src="d:\Tareas u otros Juan\img3.jfif" alt="Cuartos con cama doble y con baño privado">
             <div class="hotel-info">
                 <h2>3. Cuartos con cama doble y con baño privado</h2>
-                <p class="rating">⭐⭐⭐⭐⭐ 4,368 opiniones</p>
+                <p class="rating">POR FAVOR CALIFÍQUENOS </p>
                 <button class="btn-precio" onclick="Opinar('Cuartos con cama doble y con baño privado')">Opinar</button>
                 <p>Los cuartos con cama doble cuenta con : televisor, dos camas una de dos plazas y otra de una plaza, en cuanto a la 
                     atención se le entrega toalla y jabon y tambien  la cantidad es opcional.
@@ -63,7 +85,7 @@
             <img src="d:\Tareas u otros Juan\img4.jfif" alt="Cuartos con cama doble con baño compartido">
             <div class="hotel-info">
                 <h2>4.Cuartos con cama doble con baño compartido</h2>
-                <p class="rating">⭐⭐⭐⭐ 2,500 opiniones</p>
+                <p class="rating">POR FAVOR CALIFÍQUENOS </p>
                 <button class="btn-precio" onclick="Opinar('Cuartos con cama doble con baño compartido')">Opinar</button>
                 <p> Los cuartos con cama doble cuenta con : televisor, dos camas una de dos plazas y la otra de una plaza, en cuanto a la 
                     atención la entrega de toalla y jabon es opcional.
@@ -73,10 +95,10 @@
 
         <!-- Hotel 5 -->
         <div class="hotel-card">
-            <img src="hotel5.jpg" alt="Nuestros Trabajadores">
+            <img src="d:\Tareas u otros Juan\img 5.jfif" alt="Nuestros Trabajadores">
             <div class="hotel-info">
                 <h2>5. Nuestros Trabajadores</h2>
-                <p class="rating">⭐⭐⭐⭐⭐ 3,100 opiniones</p>
+                <p class="rating">POR FAVOR CALIFÍQUENOS</p>
                 <button class="btn-precio" onclick="Opinar('Nuestros Trabajadores')">Opinar</button>
                 <p>Nuestros trabajadores velan por su comodidad porque su comodidad nos interesa, contamos 4 trabajadores 
                     dispuestos a atender sus necesidades y asegurarles la comodidad que necesita.
